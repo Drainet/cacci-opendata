@@ -14,29 +14,5 @@
     </head>
     <body>
 
-    <script>
-
-    var callbackError;
-    var callbackData;
-
-    var list = d3.select("body").append("ul");
-
-    d3.tsv("data2.tsv",
-        function(error, data) {
-            callbackError = error;
-            callbackData = data;
-    
-         list.selectAll("ul")
-         .data(data)
-         .enter()
-         .append("li")
-         .text(function(d) { return d.petalLength; })
-
-    });
-
-
-
-    </script>
-
     </body>
 </html>

@@ -5,97 +5,84 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
     <script type="text/javascript" src="js/d3.min.js"></script>
-    <style type="text/css">
-
-html, body, #map {
-  width: 100%;
-  height: 95%;
-  margin: 0;
-  padding: 0;
-}
-
-.stations, .stations svg {
-  position: absolute;
-}
-
-.stations svg {
-  width: 60px;
-  height: 20px;
-  padding-right: 100px;
-  font: 10px sans-serif;
-}
-
-.stations circle {
-  fill: brown;
-  stroke: black;
-  stroke-width: 1.5px;
-}
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
   </head>
   <body>
+
+  <div id="wrapper">
+    <!-- Sidebar -->
+          <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+    <ul id="sidebar_menu" class="sidebar-nav">
+         <li class="sidebar-brand"><a id="menu-toggle" href="#">Menu<span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
+    </ul>
+      <ul class="sidebar-nav" id="sidebar">     
+        <li><a>chart1<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
+        <li><a>chart2<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
+      </ul>
+    </div>
+  </div>
+
     <div id="map"></div>
     <script type="text/javascript">
 
-// http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html
-// var styles = [ { "stylers": [ { "gamma": 0.8 }, { "weight": 5.5 }, { "saturation": -54 }, { "lightness": -34 } ] },{ "elementType": "labels.icon", "stylers": [ { "visibility": "off" } ] },{ "featureType": "transit.line", "stylers": [ { "visibility": "off" } ] },{ "featureType": "poi", "elementType": "geometry.fill", "stylers": [ { "visibility": "off" } ] },{ "featureType": "road", "stylers": [ { "gamma": 1.16 }, { "saturation": -40 }, { "lightness": 6 }, { "visibility": "simplified" } ] },{ "featureType": "landscape", "stylers": [ { "visibility": "simplified" } ] } ];
-var styles = [ { "featureType": "transit", "stylers": [ { "visibility": "off" } ] },{ "stylers": [ { "saturation": -100 }, { "gamma": 0.74 }, { "weight": 8 }, { "lightness": -64 } ] },{ "featureType": "poi", "stylers": [ { "visibility": "off" } ] },{ "featureType": "landscape.man_made", "stylers": [ { "visibility": "off" } ] },{ "featureType": "road", "stylers": [ { "visibility": "simplified" }, { "lightness": -32 } ] },{ "featureType": "transit.station", "elementType": "labels", "stylers": [ { "visibility": "simplified" }, { "lightness": 55 } ] },{ "featureType": "road", "elementType": "labels", "stylers": [ { "lightness": 88 } ] },{ "featureType": "road.highway", "elementType": "labels.icon", "stylers": [ { "visibility": "off" } ] },{ "featureType": "road", "elementType": "labels.icon", "stylers": [ { "visibility": "off" } ] } ];
+    /* 
+      修改Google Map樣式：http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html
+    */
+      var styles = [ { "featureType": "transit", "stylers": [ { "visibility": "off" } ] },{ "stylers": [ { "saturation": -100 }, { "gamma": 0.74 }, { "weight": 8 }, { "lightness": -64 } ] },{ "featureType": "poi", "stylers": [ { "visibility": "off" } ] },{ "featureType": "landscape.man_made", "stylers": [ { "visibility": "off" } ] },{ "featureType": "road", "stylers": [ { "visibility": "simplified" }, { "lightness": -32 } ] },{ "featureType": "transit.station", "elementType": "labels", "stylers": [ { "visibility": "simplified" }, { "lightness": 55 } ] },{ "featureType": "road", "elementType": "labels", "stylers": [ { "lightness": 88 } ] },{ "featureType": "road.highway", "elementType": "labels.icon", "stylers": [ { "visibility": "off" } ] },{ "featureType": "road", "elementType": "labels.icon", "stylers": [ { "visibility": "off" } ] } ];
 
-// Create a new StyledMapType object, passing it the array of styles,
-  // as well as the name to be displayed on the map type control.
-  var styledMap = new google.maps.StyledMapType(styles,
-    {name: "Styled Map"});
+    // Create a new StyledMapType object, passing it the array of styles,
+    // as well as the name to be displayed on the map type control.
+      var styledMap = new google.maps.StyledMapType(styles,{name: "Black Map"});
 
+    // Create the Google Map…
+      var map = new google.maps.Map(d3.select("#map").node(), {
+        zoom: 12,
+        center: new google.maps.LatLng(25.09126, 121.55311),
+        streetViewControl: false,
+        panControl: false,
+        zoomControl: true,
+        zoomControlOptions: {
+            style: google.maps.ZoomControlStyle.LARGE,
+            position: google.maps.ControlPosition.RIGHT_BOTTOM
+        },
+        mapTypeControlOptions: {
+            mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'blackMap'],
+          }
+      });
 
-// Create the Google Map…
-var map = new google.maps.Map(d3.select("#map").node(), {
-  zoom: 12,
-  center: new google.maps.LatLng(25.07126, 121.55311),
-  mapTypeControlOptions: {
-      mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
-    }
-});
+    //Associate the styled map with the MapTypeId and set it to display.
+      map.mapTypes.set('blackMap', styledMap);
+      map.setMapTypeId('blackMap');
 
-  //Associate the styled map with the MapTypeId and set it to display.
-  map.mapTypes.set('map_style', styledMap);
-  map.setMapTypeId('map_style');
+    // Load the station data. When the data comes back, create an overlay.
+      d3.csv("data/AIO_lean.csv", function(data) {
+        var layer = d3.select("body").append("svg")
+        var heatmapData = [];
+        var heatmap = new google.maps.visualization.HeatmapLayer({
+          data: heatmapData,
+          radius: 9,              // 每個點的半徑 (單位 px)
+          opacity: 0.5            // 熱圖圖層透明度 (0 ~ 1)
+          // gradient: ['transparent', '#ff0', '#ff0', '#ff0'], 
+        });
 
+          // Draw each marker as a separate SVG element.
+            var marker = layer.selectAll("svg")
+                .data(data)
+                .each(drawMarker) // update existing markers
+              .enter().append("svg:svg")
+                .each(drawMarker)
 
-// Load the station data. When the data comes back, create an overlay.
-d3.csv("data/AIO_lean.csv", function(data) {
-   // console.log(data);
-  var layer = d3.select("body").append("svg")
-        .attr("width", 800)
-        .attr("height", 800);
-  var heatmapData = [];
-  var heatmap = new google.maps.visualization.HeatmapLayer({
-    data: heatmapData,
-    gradient: ['transparent', '#ff0', '#ff0', '#ff0'], 
-    radius: 9,              // 每個點的半徑 (單位 px)
-    opacity: 0.8            // 熱圖圖層透明度 (0 ~ 1)
-  });
-
-    // Draw each marker as a separate SVG element.
-    // We could use a single SVG, but what size would it have?
-
-      var marker = layer.selectAll("svg")
-          .data(data)
-          .each(transform) // update existing markers
-        .enter().append("svg:svg")
-          .each(transform)
-
-
-      function transform(d) {
-        d = new google.maps.LatLng(d.Y-0.0013, d.X-0.0013);
-        heatmapData.push(d);
-      }
-    
-
-
-  // Bind our overlay to the map…
-  heatmap.setMap(map);
-  
-});
+            function drawMarker(d) {
+              d = new google.maps.LatLng(d.Y-0.0013, d.X-0.0013);
+              heatmapData.push(d);
+            }
+          
+        // Bind our overlay to the map…
+        heatmap.setMap(map);
+      });
     </script>
   </body>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </html>
