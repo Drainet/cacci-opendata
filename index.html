@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Loading data from server</title>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.2/d3.js"></script>
+
+        <style>
+        body {font-family: monospace; line-height: 160%; font-size: 18px; }
+        ul {list-style: none; margin: 0; padding: 0;}
+        li {display: inline-block; width: 40px; padding: 10px; background-color: #eee; margin: 0;}
+        </style>
+
+    </head>
+    <body>
+
+    <script>
+
+    var callbackError;
+    var callbackData;
+
+    var list = d3.select("body").append("ul");
+
+    d3.tsv("data2.tsv",
+        function(error, data) {
+            callbackError = error;
+            callbackData = data;
+    
+         list.selectAll("ul")
+         .data(data)
+         .enter()
+         .append("li")
+         .text(function(d) { return d.petalLength; })
+
+    });
+
+
+
+    </script>
+
+    </body>
+</html>

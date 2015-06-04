@@ -1,0 +1,22 @@
+/*body {
+  font: 10px sans-serif;
+}
+
+.bar rect {
+  fill: steelblue;
+  shape-rendering: crispEdges;
+}
+
+.bar text {
+  fill: #fff;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+*/
+body {font-family: monospace; line-height: 160%; font-size: 18px; }
+        ul {list-style: none; margin: 0; padding: 0;}
+        li {display: inline-block; width: 40px; padding: 10px; background-color: #eee; margin: 0;}

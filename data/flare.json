@@ -1,0 +1,85 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "analytics",
+   "children": [
+    {
+     "name": "cluster",
+     "children": [
+      {"name": "AgglomerativeCluster", "size": 938},
+      {"name": "MergeEdge", "size": 743}
+     ]
+    },
+    {
+     "name": "optimization",
+     "children": [
+      {"name": "AspectRatioBanker", "size": 7074}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "data",
+   "children": [
+    {
+     "name": "converters",
+     "children": [
+      {"name": "Converters", "size": 721},
+      {"name": "JSONConverter", "size": 2220}
+     ]
+    },
+    {"name": "DataField", "size": 1759},
+    {"name": "DataUtil", "size": 3322}
+   ]
+  },
+  {
+   "name": "query",
+   "children": [
+    {"name": "AggregateExpression", "size": 1616},
+    {"name": "Xor", "size": 1101}
+   ]
+  },
+  {
+   "name": "vis",
+   "children": [
+    {
+     "name": "axis",
+     "children": [
+      {"name": "Axes", "size": 1302},
+      {"name": "Axis", "size": 24593},
+      {"name": "AxisGridLine", "size": 652},
+      {"name": "AxisLabel", "size": 636},
+      {"name": "CartesianAxes", "size": 6703}
+     ]
+    },
+    {
+     "name": "controls",
+     "children": [
+      {"name": "AnchorControl", "size": 2138},
+      {"name": "TooltipControl", "size": 8435}
+     ]
+    },
+    {
+     "name": "data",
+     "children": [
+      {"name": "Data", "size": 20544},
+      {"name": "NodeSprite", "size": 19382},
+      {
+       "name": "render",
+       "children": [
+        {"name": "ArrowType", "size": 698},
+        {"name": "EdgeRenderer", "size": 5569},
+        {"name": "IRenderer", "size": 353},
+        {"name": "ShapeRenderer", "size": 2247}
+       ]
+      },
+      {"name": "ScaleBinding", "size": 11275},
+      {"name": "Tree", "size": 7147},
+      {"name": "TreeBuilder", "size": 9930}
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3450 @@
+{
+ "name": "MyData",
+"children": [
+ {
+ "name": "高雄市",
+"children": [
+ {
+ "name": "阿蓮區",
+"Number": 277 
+},
+{
+ "name": "大寮區",
+"Number": 2229 
+},
+{
+ "name": "大社區",
+"Number": 710 
+},
+{
+ "name": "大樹區",
+"Number": 418 
+},
+{
+ "name": "鳳山區",
+"Number": 5297 
+},
+{
+ "name": "岡山區",
+"Number": 1787 
+},
+{
+ "name": "鼓山區",
+"Number": 1761 
+},
+{
+ "name": "湖內區",
+"Number": 436 
+},
+{
+ "name": "茄萣區",
+"Number": 231 
+},
+{
+ "name": "甲仙區",
+"Number": 9 
+},
+{
+ "name": "林園區",
+"Number": 798 
+},
+{
+ "name": "苓雅區",
+"Number": 3210 
+},
+{
+ "name": "六龜區",
+"Number": 60 
+},
+{
+ "name": "路竹區",
+"Number": 881 
+},
+{
+ "name": "茂林區",
+"Number": 3 
+},
+{
+ "name": "美濃區",
+"Number": 317 
+},
+{
+ "name": "彌陀區",
+"Number": 126 
+},
+{
+ "name": "那瑪夏",
+"Number": 8 
+},
+{
+ "name": "楠梓區",
+"Number": 2723 
+},
+{
+ "name": "內門區",
+"Number": 105 
+},
+{
+ "name": "鳥松區",
+"Number": 1090 
+},
+{
+ "name": "旗津區",
+"Number": 175 
+},
+{
+ "name": "旗山區",
+"Number": 564 
+},
+{
+ "name": "前金區",
+"Number": 573 
+},
+{
+ "name": "前鎮區",
+"Number": 3248 
+},
+{
+ "name": "橋頭區",
+"Number": 725 
+},
+{
+ "name": "仁武區",
+"Number": 1643 
+},
+{
+ "name": "三民區",
+"Number": 6116 
+},
+{
+ "name": "杉林區",
+"Number": 50 
+},
+{
+ "name": "桃源區",
+"Number": 1 
+},
+{
+ "name": "田寮區",
+"Number": 37 
+},
+{
+ "name": "小港區",
+"Number": 2149 
+},
+{
+ "name": "新興區",
+"Number": 1628 
+},
+{
+ "name": "鹽埕區",
+"Number": 327 
+},
+{
+ "name": "燕巢區",
+"Number": 596 
+},
+{
+ "name": "永安區",
+"Number": 121 
+},
+{
+ "name": "梓官區",
+"Number": 268 
+},
+{
+ "name": "左營區",
+"Number": 3135 
+} 
+] 
+},
+{
+ "name": "花蓮縣",
+"children": [
+ {
+ "name": "豐濱鄉",
+"Number": 32 
+},
+{
+ "name": "鳳林鎮",
+"Number": 143 
+},
+{
+ "name": "富里鄉",
+"Number": 78 
+},
+{
+ "name": "光復鄉",
+"Number": 100 
+},
+{
+ "name": "花蓮市",
+"Number": 1602 
+},
+{
+ "name": "吉安鄉",
+"Number": 1068 
+},
+{
+ "name": "瑞穗鄉",
+"Number": 86 
+},
+{
+ "name": "壽豐鄉",
+"Number": 255 
+},
+{
+ "name": "萬榮鄉",
+"Number": 20 
+},
+{
+ "name": "新城鄉",
+"Number": 256 
+},
+{
+ "name": "秀林鄉",
+"Number": 127 
+},
+{
+ "name": "玉里鎮",
+"Number": 209 
+},
+{
+ "name": "卓溪鄉",
+"Number": 8 
+} 
+] 
+},
+{
+ "name": "基隆市",
+"children": [
+ {
+ "name": "安樂區",
+"Number": 400 
+},
+{
+ "name": "暖暖區",
+"Number": 204 
+},
+{
+ "name": "七堵區",
+"Number": 387 
+},
+{
+ "name": "仁愛區",
+"Number": 468 
+},
+{
+ "name": "信義區",
+"Number": 364 
+},
+{
+ "name": "中山區",
+"Number": 304 
+},
+{
+ "name": "中正區",
+"Number": 371 
+} 
+] 
+},
+{
+ "name": "嘉義市",
+"children": [
+ {
+ "name": "東區國",
+"Number": 2 
+},
+{
+ "name": "東區嘉",
+"Number": 1497 
+},
+{
+ "name": "西區國",
+"Number": 1 
+},
+{
+ "name": "西區嘉",
+"Number": 1704 
+} 
+] 
+},
+{
+ "name": "嘉義縣",
+"children": [
+ {
+ "name": "阿里山",
+"Number": 39 
+},
+{
+ "name": "布袋鎮",
+"Number": 176 
+},
+{
+ "name": "大埔鄉",
+"Number": 3 
+},
+{
+ "name": "大林鎮",
+"Number": 303 
+},
+{
+ "name": "東石鄉",
+"Number": 132 
+},
+{
+ "name": "番路鄉",
+"Number": 101 
+},
+{
+ "name": "六腳鄉",
+"Number": 190 
+},
+{
+ "name": "鹿草鄉",
+"Number": 82 
+},
+{
+ "name": "梅山鄉",
+"Number": 87 
+},
+{
+ "name": "民雄鄉",
+"Number": 918 
+},
+{
+ "name": "朴子市",
+"Number": 541 
+},
+{
+ "name": "水上鄉",
+"Number": 455 
+},
+{
+ "name": "太保市",
+"Number": 413 
+},
+{
+ "name": "溪口鄉",
+"Number": 82 
+},
+{
+ "name": "新港鄉",
+"Number": 257 
+},
+{
+ "name": "義竹鄉",
+"Number": 125 
+},
+{
+ "name": "中埔鄉",
+"Number": 439 
+},
+{
+ "name": "竹崎鄉",
+"Number": 244 
+} 
+] 
+},
+{
+ "name": "金門縣",
+"children": [
+ {
+ "name": "金城鎮",
+"Number": 203 
+},
+{
+ "name": "金湖鎮",
+"Number": 99 
+},
+{
+ "name": "金寧鄉",
+"Number": 136 
+},
+{
+ "name": "金沙鎮",
+"Number": 48 
+},
+{
+ "name": "烈嶼鄉",
+"Number": 19 
+} 
+] 
+},
+{
+ "name": "苗栗縣",
+"children": [
+ {
+ "name": "大湖鄉",
+"Number": 63 
+},
+{
+ "name": "公館鄉",
+"Number": 113 
+},
+{
+ "name": "後龍鎮",
+"Number": 185 
+},
+{
+ "name": "苗栗市",
+"Number": 1074 
+},
+{
+ "name": "南庄鄉",
+"Number": 13 
+},
+{
+ "name": "三灣鄉",
+"Number": 14 
+},
+{
+ "name": "三義鄉",
+"Number": 49 
+},
+{
+ "name": "獅潭鄉",
+"Number": 16 
+},
+{
+ "name": "泰安鄉",
+"Number": 2 
+},
+{
+ "name": "通霄鎮",
+"Number": 204 
+},
+{
+ "name": "銅鑼鄉",
+"Number": 124 
+},
+{
+ "name": "頭份鎮",
+"Number": 928 
+},
+{
+ "name": "頭屋鄉",
+"Number": 21 
+},
+{
+ "name": "西湖鄉",
+"Number": 14 
+},
+{
+ "name": "苑裡鎮",
+"Number": 424 
+},
+{
+ "name": "造橋鄉",
+"Number": 38 
+},
+{
+ "name": "竹南鎮",
+"Number": 1064 
+},
+{
+ "name": "卓蘭鎮",
+"Number": 40 
+} 
+] 
+},
+{
+ "name": "南投縣",
+"children": [
+ {
+ "name": "埔里鎮",
+"Number": 943 
+},
+{
+ "name": "草屯鎮",
+"Number": 1272 
+},
+{
+ "name": "國姓鄉",
+"Number": 101 
+},
+{
+ "name": "集集鎮",
+"Number": 76 
+},
+{
+ "name": "鹿谷鄉",
+"Number": 99 
+},
+{
+ "name": "名間鄉",
+"Number": 310 
+},
+{
+ "name": "南投市",
+"Number": 1461 
+},
+{
+ "name": "仁愛鄉",
+"Number": 114 
+},
+{
+ "name": "水里鄉",
+"Number": 145 
+},
+{
+ "name": "信義鄉",
+"Number": 56 
+},
+{
+ "name": "魚池鄉",
+"Number": 135 
+},
+{
+ "name": "中寮鄉",
+"Number": 58 
+},
+{
+ "name": "竹山鎮",
+"Number": 444 
+} 
+] 
+},
+{
+ "name": "澎湖縣",
+"children": [
+ {
+ "name": "白沙鄉",
+"Number": 53 
+},
+{
+ "name": "湖西鄉",
+"Number": 79 
+},
+{
+ "name": "馬公市",
+"Number": 699 
+},
+{
+ "name": "七美鄉",
+"Number": 2 
+},
+{
+ "name": "西嶼鄉",
+"Number": 38 
+} 
+] 
+},
+{
+ "name": "屏東縣",
+"children": [
+ {
+ "name": "潮州鎮",
+"Number": 611 
+},
+{
+ "name": "車城鄉",
+"Number": 99 
+},
+{
+ "name": "春日鄉",
+"Number": 2 
+},
+{
+ "name": "東港鎮",
+"Number": 547 
+},
+{
+ "name": "枋寮鄉",
+"Number": 286 
+},
+{
+ "name": "枋山鄉",
+"Number": 157 
+},
+{
+ "name": "高樹鄉",
+"Number": 192 
+},
+{
+ "name": "恆春鎮",
+"Number": 550 
+},
+{
+ "name": "佳冬鄉",
+"Number": 169 
+},
+{
+ "name": "九如鄉",
+"Number": 276 
+},
+{
+ "name": "崁頂鄉",
+"Number": 94 
+},
+{
+ "name": "來義鄉",
+"Number": 4 
+},
+{
+ "name": "里港鄉",
+"Number": 309 
+},
+{
+ "name": "林邊鄉",
+"Number": 121 
+},
+{
+ "name": "麟洛鄉",
+"Number": 218 
+},
+{
+ "name": "琉球鄉",
+"Number": 16 
+},
+{
+ "name": "瑪家鄉",
+"Number": 11 
+},
+{
+ "name": "滿州鄉",
+"Number": 45 
+},
+{
+ "name": "牡丹鄉",
+"Number": 8 
+},
+{
+ "name": "南州鄉",
+"Number": 99 
+},
+{
+ "name": "內埔鄉",
+"Number": 836 
+},
+{
+ "name": "屏東市",
+"Number": 2798 
+},
+{
+ "name": "三地門",
+"Number": 15 
+},
+{
+ "name": "獅子鄉",
+"Number": 14 
+},
+{
+ "name": "萬丹鄉",
+"Number": 723 
+},
+{
+ "name": "萬巒鄉",
+"Number": 138 
+},
+{
+ "name": "霧台鄉",
+"Number": 1 
+},
+{
+ "name": "新埤鄉",
+"Number": 74 
+},
+{
+ "name": "新園鄉",
+"Number": 344 
+},
+{
+ "name": "鹽埔鄉",
+"Number": 311 
+},
+{
+ "name": "長治鄉",
+"Number": 393 
+},
+{
+ "name": "竹田鄉",
+"Number": 200 
+} 
+] 
+},
+{
+ "name": "臺北市",
+"children": [
+ {
+ "name": "北投區",
+"Number": 1958 
+},
+{
+ "name": "大安區",
+"Number": 1794 
+},
+{
+ "name": "大同區",
+"Number": 1428 
+},
+{
+ "name": "南港區",
+"Number": 700 
+},
+{
+ "name": "內湖區",
+"Number": 1813 
+},
+{
+ "name": "士林區",
+"Number": 1736 
+},
+{
+ "name": "松山區",
+"Number": 1297 
+},
+{
+ "name": "萬華區",
+"Number": 1004 
+},
+{
+ "name": "文山區",
+"Number": 1948 
+},
+{
+ "name": "信義區",
+"Number": 1378 
+},
+{
+ "name": "中山區",
+"Number": 2367 
+},
+{
+ "name": "中正區",
+"Number": 1765 
+} 
+] 
+},
+{
+ "name": "臺東縣",
+"children": [
+ {
+ "name": "卑南鄉",
+"Number": 134 
+},
+{
+ "name": "成功鎮",
+"Number": 115 
+},
+{
+ "name": "池上鄉",
+"Number": 56 
+},
+{
+ "name": "達仁鄉",
+"Number": 54 
+},
+{
+ "name": "大武鄉",
+"Number": 57 
+},
+{
+ "name": "東河鄉",
+"Number": 61 
+},
+{
+ "name": "關山鎮",
+"Number": 61 
+},
+{
+ "name": "海端鄉",
+"Number": 6 
+},
+{
+ "name": "金峰鄉",
+"Number": 9 
+},
+{
+ "name": "蘭嶼鄉",
+"Number": 14 
+},
+{
+ "name": "鹿野鄉",
+"Number": 64 
+},
+{
+ "name": "綠島鄉",
+"Number": 26 
+},
+{
+ "name": "台東市",
+"Number": 1460 
+},
+{
+ "name": "太麻里",
+"Number": 123 
+},
+{
+ "name": "延平鄉",
+"Number": 9 
+},
+{
+ "name": "長濱鄉",
+"Number": 54 
+} 
+] 
+},
+{
+ "name": "臺南市",
+"children": [
+ {
+ "name": "安定區",
+"Number": 349 
+},
+{
+ "name": "安南區",
+"Number": 720 
+},
+{
+ "name": "安平區",
+"Number": 507 
+},
+{
+ "name": "白河區",
+"Number": 241 
+},
+{
+ "name": "北門區",
+"Number": 53 
+},
+{
+ "name": "北區北",
+"Number": 130 
+},
+{
+ "name": "北區成",
+"Number": 41 
+},
+{
+ "name": "北區赤",
+"Number": 1 
+},
+{
+ "name": "北區大",
+"Number": 46 
+},
+{
+ "name": "北區東",
+"Number": 34 
+},
+{
+ "name": "北區富",
+"Number": 2 
+},
+{
+ "name": "北區公",
+"Number": 160 
+},
+{
+ "name": "北區國",
+"Number": 2 
+},
+{
+ "name": "北區海",
+"Number": 63 
+},
+{
+ "name": "北區好",
+"Number": 1 
+},
+{
+ "name": "北區和",
+"Number": 57 
+},
+{
+ "name": "北區金",
+"Number": 8 
+},
+{
+ "name": "北區精",
+"Number": 2 
+},
+{
+ "name": "北區開",
+"Number": 81 
+},
+{
+ "name": "北區康",
+"Number": 1 
+},
+{
+ "name": "北區立",
+"Number": 1 
+},
+{
+ "name": "北區林",
+"Number": 15 
+},
+{
+ "name": "北區臨",
+"Number": 16 
+},
+{
+ "name": "北區民",
+"Number": 12 
+},
+{
+ "name": "北區南",
+"Number": 2 
+},
+{
+ "name": "北區勝",
+"Number": 9 
+},
+{
+ "name": "北區實",
+"Number": 14 
+},
+{
+ "name": "北區文",
+"Number": 101 
+},
+{
+ "name": "北區武",
+"Number": 8 
+},
+{
+ "name": "北區西",
+"Number": 104 
+},
+{
+ "name": "北區賢",
+"Number": 3 
+},
+{
+ "name": "北區小",
+"Number": 70 
+},
+{
+ "name": "北區佑",
+"Number": 1 
+},
+{
+ "name": "北區育",
+"Number": 33 
+},
+{
+ "name": "北區長",
+"Number": 42 
+},
+{
+ "name": "北區正",
+"Number": 1 
+},
+{
+ "name": "北區中",
+"Number": 95 
+},
+{
+ "name": "北區忠",
+"Number": 5 
+},
+{
+ "name": "北區自",
+"Number": 1 
+},
+{
+ "name": "大內區",
+"Number": 46 
+},
+{
+ "name": "東區北",
+"Number": 34 
+},
+{
+ "name": "東區城",
+"Number": 1 
+},
+{
+ "name": "東區崇",
+"Number": 265 
+},
+{
+ "name": "東區大",
+"Number": 82 
+},
+{
+ "name": "東區德",
+"Number": 16 
+},
+{
+ "name": "東區東",
+"Number": 264 
+},
+{
+ "name": "東區府",
+"Number": 19 
+},
+{
+ "name": "東區富",
+"Number": 18 
+},
+{
+ "name": "東區光",
+"Number": 14 
+},
+{
+ "name": "東區國",
+"Number": 2 
+},
+{
+ "name": "東區建",
+"Number": 1 
+},
+{
+ "name": "東區精",
+"Number": 2 
+},
+{
+ "name": "東區凱",
+"Number": 2 
+},
+{
+ "name": "東區立",
+"Number": 5 
+},
+{
+ "name": "東區利",
+"Number": 1 
+},
+{
+ "name": "東區林",
+"Number": 95 
+},
+{
+ "name": "東區龍",
+"Number": 1 
+},
+{
+ "name": "東區民",
+"Number": 7 
+},
+{
+ "name": "東區前",
+"Number": 15 
+},
+{
+ "name": "東區青",
+"Number": 17 
+},
+{
+ "name": "東區慶",
+"Number": 2 
+},
+{
+ "name": "東區仁",
+"Number": 34 
+},
+{
+ "name": "東區榮",
+"Number": 12 
+},
+{
+ "name": "東區生",
+"Number": 22 
+},
+{
+ "name": "東區勝",
+"Number": 29 
+},
+{
+ "name": "東區樹",
+"Number": 4 
+},
+{
+ "name": "東區鐵",
+"Number": 1 
+},
+{
+ "name": "東區衛",
+"Number": 8 
+},
+{
+ "name": "東區文",
+"Number": 5 
+},
+{
+ "name": "東區小",
+"Number": 51 
+},
+{
+ "name": "東區怡",
+"Number": 5 
+},
+{
+ "name": "東區育",
+"Number": 2 
+},
+{
+ "name": "東區裕",
+"Number": 141 
+},
+{
+ "name": "東區長",
+"Number": 47 
+},
+{
+ "name": "東區中",
+"Number": 165 
+},
+{
+ "name": "東區莊",
+"Number": 8 
+},
+{
+ "name": "東區自",
+"Number": 8 
+},
+{
+ "name": "東山區",
+"Number": 118 
+},
+{
+ "name": "官田區",
+"Number": 229 
+},
+{
+ "name": "關廟區",
+"Number": 121 
+},
+{
+ "name": "歸仁區",
+"Number": 497 
+},
+{
+ "name": "後壁區",
+"Number": 170 
+},
+{
+ "name": "佳里區",
+"Number": 699 
+},
+{
+ "name": "將軍區",
+"Number": 101 
+},
+{
+ "name": "柳營區",
+"Number": 211 
+},
+{
+ "name": "六甲區",
+"Number": 154 
+},
+{
+ "name": "龍崎區",
+"Number": 11 
+},
+{
+ "name": "麻豆區",
+"Number": 622 
+},
+{
+ "name": "南化區",
+"Number": 40 
+},
+{
+ "name": "南區8",
+"Number": 1 
+},
+{
+ "name": "南區濱",
+"Number": 32 
+},
+{
+ "name": "南區大",
+"Number": 139 
+},
+{
+ "name": "南區德",
+"Number": 17 
+},
+{
+ "name": "南區福",
+"Number": 5 
+},
+{
+ "name": "南區公",
+"Number": 1 
+},
+{
+ "name": "南區觀",
+"Number": 1 
+},
+{
+ "name": "南區國",
+"Number": 58 
+},
+{
+ "name": "南區惠",
+"Number": 7 
+},
+{
+ "name": "南區機",
+"Number": 3 
+},
+{
+ "name": "南區建",
+"Number": 7 
+},
+{
+ "name": "南區健",
+"Number": 92 
+},
+{
+ "name": "南區金",
+"Number": 168 
+},
+{
+ "name": "南區敬",
+"Number": 1 
+},
+{
+ "name": "南區鯤",
+"Number": 3 
+},
+{
+ "name": "南區利",
+"Number": 2 
+},
+{
+ "name": "南區美",
+"Number": 2 
+},
+{
+ "name": "南區明",
+"Number": 75 
+},
+{
+ "name": "南區南",
+"Number": 16 
+},
+{
+ "name": "南區清",
+"Number": 2 
+},
+{
+ "name": "南區仁",
+"Number": 1 
+},
+{
+ "name": "南區三",
+"Number": 9 
+},
+{
+ "name": "南區省",
+"Number": 4 
+},
+{
+ "name": "南區聖",
+"Number": 2 
+},
+{
+ "name": "南區樹",
+"Number": 1 
+},
+{
+ "name": "南區水",
+"Number": 2 
+},
+{
+ "name": "南區體",
+"Number": 11 
+},
+{
+ "name": "南區灣",
+"Number": 31 
+},
+{
+ "name": "南區萬",
+"Number": 16 
+},
+{
+ "name": "南區文",
+"Number": 22 
+},
+{
+ "name": "南區五",
+"Number": 1 
+},
+{
+ "name": "南區喜",
+"Number": 16 
+},
+{
+ "name": "南區西",
+"Number": 47 
+},
+{
+ "name": "南區夏",
+"Number": 50 
+},
+{
+ "name": "南區賢",
+"Number": 3 
+},
+{
+ "name": "南區新",
+"Number": 151 
+},
+{
+ "name": "南區興",
+"Number": 8 
+},
+{
+ "name": "南區鹽",
+"Number": 17 
+},
+{
+ "name": "南區永",
+"Number": 84 
+},
+{
+ "name": "南區中",
+"Number": 150 
+},
+{
+ "name": "南區竹",
+"Number": 1 
+},
+{
+ "name": "南區尊",
+"Number": 1 
+},
+{
+ "name": "楠西區",
+"Number": 47 
+},
+{
+ "name": "七股區",
+"Number": 163 
+},
+{
+ "name": "仁德區",
+"Number": 811 
+},
+{
+ "name": "山上區",
+"Number": 84 
+},
+{
+ "name": "善化區",
+"Number": 621 
+},
+{
+ "name": "西港區",
+"Number": 251 
+},
+{
+ "name": "下營區",
+"Number": 197 
+},
+{
+ "name": "新化區",
+"Number": 642 
+},
+{
+ "name": "新市區",
+"Number": 775 
+},
+{
+ "name": "新營區",
+"Number": 1035 
+},
+{
+ "name": "學甲區",
+"Number": 227 
+},
+{
+ "name": "鹽水區",
+"Number": 249 
+},
+{
+ "name": "永康區",
+"Number": 3138 
+},
+{
+ "name": "玉井區",
+"Number": 124 
+},
+{
+ "name": "中西區",
+"Number": 922 
+},
+{
+ "name": "左鎮區",
+"Number": 55 
+} 
+] 
+},
+{
+ "name": "臺中市",
+"children": [
+ {
+ "name": "北區北",
+"Number": 130 
+},
+{
+ "name": "北區博",
+"Number": 30 
+},
+{
+ "name": "北區成",
+"Number": 7 
+},
+{
+ "name": "北區崇",
+"Number": 147 
+},
+{
+ "name": "北區大",
+"Number": 284 
+},
+{
+ "name": "北區淡",
+"Number": 5 
+},
+{
+ "name": "北區德",
+"Number": 23 
+},
+{
+ "name": "北區電",
+"Number": 7 
+},
+{
+ "name": "北區頂",
+"Number": 9 
+},
+{
+ "name": "北區東",
+"Number": 29 
+},
+{
+ "name": "北區篤",
+"Number": 26 
+},
+{
+ "name": "北區福",
+"Number": 2 
+},
+{
+ "name": "北區富",
+"Number": 4 
+},
+{
+ "name": "北區公",
+"Number": 37 
+},
+{
+ "name": "北區光",
+"Number": 11 
+},
+{
+ "name": "北區國",
+"Number": 36 
+},
+{
+ "name": "北區旱",
+"Number": 1 
+},
+{
+ "name": "北區漢",
+"Number": 158 
+},
+{
+ "name": "北區華",
+"Number": 13 
+},
+{
+ "name": "北區建",
+"Number": 8 
+},
+{
+ "name": "北區健",
+"Number": 180 
+},
+{
+ "name": "北區金",
+"Number": 15 
+},
+{
+ "name": "北區錦",
+"Number": 46 
+},
+{
+ "name": "北區進",
+"Number": 135 
+},
+{
+ "name": "北區精",
+"Number": 51 
+},
+{
+ "name": "北區賴",
+"Number": 34 
+},
+{
+ "name": "北區樂",
+"Number": 4 
+},
+{
+ "name": "北區力",
+"Number": 14 
+},
+{
+ "name": "北區立",
+"Number": 3 
+},
+{
+ "name": "北區柳",
+"Number": 16 
+},
+{
+ "name": "北區六",
+"Number": 1 
+},
+{
+ "name": "北區梅",
+"Number": 96 
+},
+{
+ "name": "北區美",
+"Number": 11 
+},
+{
+ "name": "北區民",
+"Number": 35 
+},
+{
+ "name": "北區明",
+"Number": 13 
+},
+{
+ "name": "北區南",
+"Number": 18 
+},
+{
+ "name": "北區青",
+"Number": 25 
+},
+{
+ "name": "北區邱",
+"Number": 9 
+},
+{
+ "name": "北區日",
+"Number": 4 
+},
+{
+ "name": "北區榮",
+"Number": 7 
+},
+{
+ "name": "北區三",
+"Number": 197 
+},
+{
+ "name": "北區山",
+"Number": 17 
+},
+{
+ "name": "北區陝",
+"Number": 21 
+},
+{
+ "name": "北區尚",
+"Number": 2 
+},
+{
+ "name": "北區雙",
+"Number": 199 
+},
+{
+ "name": "北區水",
+"Number": 3 
+},
+{
+ "name": "北區綏",
+"Number": 3 
+},
+{
+ "name": "北區台",
+"Number": 16 
+},
+{
+ "name": "北區太",
+"Number": 196 
+},
+{
+ "name": "北區天",
+"Number": 33 
+},
+{
+ "name": "北區衛",
+"Number": 7 
+},
+{
+ "name": "北區文",
+"Number": 48 
+},
+{
+ "name": "北區五",
+"Number": 165 
+},
+{
+ "name": "北區武",
+"Number": 13 
+},
+{
+ "name": "北區西",
+"Number": 75 
+},
+{
+ "name": "北區陜",
+"Number": 1 
+},
+{
+ "name": "北區新",
+"Number": 26 
+},
+{
+ "name": "北區興",
+"Number": 34 
+},
+{
+ "name": "北區學",
+"Number": 83 
+},
+{
+ "name": "北區一",
+"Number": 20 
+},
+{
+ "name": "北區益",
+"Number": 6 
+},
+{
+ "name": "北區英",
+"Number": 84 
+},
+{
+ "name": "北區永",
+"Number": 32 
+},
+{
+ "name": "北區育",
+"Number": 65 
+},
+{
+ "name": "北區原",
+"Number": 6 
+},
+{
+ "name": "北區長",
+"Number": 8 
+},
+{
+ "name": "北區中",
+"Number": 84 
+},
+{
+ "name": "北區忠",
+"Number": 81 
+},
+{
+ "name": "北區自",
+"Number": 20 
+},
+{
+ "name": "北屯區",
+"Number": 4325 
+},
+{
+ "name": "大安區",
+"Number": 127 
+},
+{
+ "name": "大肚區",
+"Number": 510 
+},
+{
+ "name": "大甲區",
+"Number": 1072 
+},
+{
+ "name": "大里區",
+"Number": 3464 
+},
+{
+ "name": "大雅區",
+"Number": 1670 
+},
+{
+ "name": "東區八",
+"Number": 3 
+},
+{
+ "name": "東區大",
+"Number": 129 
+},
+{
+ "name": "東區德",
+"Number": 2 
+},
+{
+ "name": "東區東",
+"Number": 196 
+},
+{
+ "name": "東區二",
+"Number": 3 
+},
+{
+ "name": "東區福",
+"Number": 6 
+},
+{
+ "name": "東區富",
+"Number": 14 
+},
+{
+ "name": "東區復",
+"Number": 175 
+},
+{
+ "name": "東區公",
+"Number": 8 
+},
+{
+ "name": "東區旱",
+"Number": 249 
+},
+{
+ "name": "東區和",
+"Number": 17 
+},
+{
+ "name": "東區建",
+"Number": 139 
+},
+{
+ "name": "東區進",
+"Number": 120 
+},
+{
+ "name": "東區精",
+"Number": 143 
+},
+{
+ "name": "東區樂",
+"Number": 101 
+},
+{
+ "name": "東區力",
+"Number": 23 
+},
+{
+ "name": "東區立",
+"Number": 10 
+},
+{
+ "name": "東區練",
+"Number": 3 
+},
+{
+ "name": "東區六",
+"Number": 33 
+},
+{
+ "name": "東區南",
+"Number": 105 
+},
+{
+ "name": "東區七",
+"Number": 10 
+},
+{
+ "name": "東區喬",
+"Number": 3 
+},
+{
+ "name": "東區仁",
+"Number": 10 
+},
+{
+ "name": "東區瑞",
+"Number": 1 
+},
+{
+ "name": "東區三",
+"Number": 12 
+},
+{
+ "name": "東區尚",
+"Number": 1 
+},
+{
+ "name": "東區生",
+"Number": 5 
+},
+{
+ "name": "東區十",
+"Number": 170 
+},
+{
+ "name": "東區雙",
+"Number": 28 
+},
+{
+ "name": "東區台",
+"Number": 110 
+},
+{
+ "name": "東區天",
+"Number": 6 
+},
+{
+ "name": "東區武",
+"Number": 2 
+},
+{
+ "name": "東區新",
+"Number": 13 
+},
+{
+ "name": "東區信",
+"Number": 13 
+},
+{
+ "name": "東區興",
+"Number": 4 
+},
+{
+ "name": "東區一",
+"Number": 10 
+},
+{
+ "name": "東區玉",
+"Number": 1 
+},
+{
+ "name": "東區育",
+"Number": 3 
+},
+{
+ "name": "東區長",
+"Number": 15 
+},
+{
+ "name": "東區振",
+"Number": 135 
+},
+{
+ "name": "東區忠",
+"Number": 29 
+},
+{
+ "name": "東區自",
+"Number": 132 
+},
+{
+ "name": "東勢區",
+"Number": 444 
+},
+{
+ "name": "豐原區",
+"Number": 2002 
+},
+{
+ "name": "和平區",
+"Number": 45 
+},
+{
+ "name": "后里區",
+"Number": 706 
+},
+{
+ "name": "龍井區",
+"Number": 953 
+},
+{
+ "name": "南區愛",
+"Number": 8 
+},
+{
+ "name": "南區崇",
+"Number": 9 
+},
+{
+ "name": "南區大",
+"Number": 109 
+},
+{
+ "name": "南區德",
+"Number": 17 
+},
+{
+ "name": "南區東",
+"Number": 20 
+},
+{
+ "name": "南區福",
+"Number": 34 
+},
+{
+ "name": "南區復",
+"Number": 331 
+},
+{
+ "name": "南區高",
+"Number": 76 
+},
+{
+ "name": "南區工",
+"Number": 75 
+},
+{
+ "name": "南區公",
+"Number": 2 
+},
+{
+ "name": "南區光",
+"Number": 9 
+},
+{
+ "name": "南區國",
+"Number": 186 
+},
+{
+ "name": "南區合",
+"Number": 10 
+},
+{
+ "name": "南區和",
+"Number": 4 
+},
+{
+ "name": "南區環",
+"Number": 8 
+},
+{
+ "name": "南區濟",
+"Number": 4 
+},
+{
+ "name": "南區建",
+"Number": 248 
+},
+{
+ "name": "南區柳",
+"Number": 6 
+},
+{
+ "name": "南區美",
+"Number": 129 
+},
+{
+ "name": "南區民",
+"Number": 11 
+},
+{
+ "name": "南區明",
+"Number": 18 
+},
+{
+ "name": "南區南",
+"Number": 74 
+},
+{
+ "name": "南區平",
+"Number": 1 
+},
+{
+ "name": "南區仁",
+"Number": 44 
+},
+{
+ "name": "南區瑞",
+"Number": 2 
+},
+{
+ "name": "南區三",
+"Number": 20 
+},
+{
+ "name": "南區樹",
+"Number": 19 
+},
+{
+ "name": "南區台",
+"Number": 106 
+},
+{
+ "name": "南區文",
+"Number": 164 
+},
+{
+ "name": "南區五",
+"Number": 116 
+},
+{
+ "name": "南區西",
+"Number": 5 
+},
+{
+ "name": "南區新",
+"Number": 5 
+},
+{
+ "name": "南區信",
+"Number": 15 
+},
+{
+ "name": "南區興",
+"Number": 52 
+},
+{
+ "name": "南區學",
+"Number": 27 
+},
+{
+ "name": "南區永",
+"Number": 17 
+},
+{
+ "name": "南區有",
+"Number": 7 
+},
+{
+ "name": "南區正",
+"Number": 33 
+},
+{
+ "name": "南區忠",
+"Number": 253 
+},
+{
+ "name": "南屯區",
+"Number": 3478 
+},
+{
+ "name": "清水區",
+"Number": 1017 
+},
+{
+ "name": "沙鹿區",
+"Number": 1609 
+},
+{
+ "name": "神岡區",
+"Number": 1030 
+},
+{
+ "name": "石岡區",
+"Number": 237 
+},
+{
+ "name": "太平區",
+"Number": 2626 
+},
+{
+ "name": "潭子區",
+"Number": 1551 
+},
+{
+ "name": "外埔區",
+"Number": 263 
+},
+{
+ "name": "烏日區",
+"Number": 1127 
+},
+{
+ "name": "梧棲區",
+"Number": 894 
+},
+{
+ "name": "霧峰區",
+"Number": 1503 
+},
+{
+ "name": "西區博",
+"Number": 36 
+},
+{
+ "name": "西區成",
+"Number": 4 
+},
+{
+ "name": "西區存",
+"Number": 5 
+},
+{
+ "name": "西區大",
+"Number": 119 
+},
+{
+ "name": "西區東",
+"Number": 40 
+},
+{
+ "name": "西區篤",
+"Number": 18 
+},
+{
+ "name": "西區福",
+"Number": 4 
+},
+{
+ "name": "西區府",
+"Number": 7 
+},
+{
+ "name": "西區公",
+"Number": 226 
+},
+{
+ "name": "西區館",
+"Number": 3 
+},
+{
+ "name": "西區貴",
+"Number": 5 
+},
+{
+ "name": "西區華",
+"Number": 50 
+},
+{
+ "name": "西區懷",
+"Number": 1 
+},
+{
+ "name": "西區繼",
+"Number": 5 
+},
+{
+ "name": "西區建",
+"Number": 61 
+},
+{
+ "name": "西區健",
+"Number": 38 
+},
+{
+ "name": "西區金",
+"Number": 2 
+},
+{
+ "name": "西區精",
+"Number": 110 
+},
+{
+ "name": "西區居",
+"Number": 4 
+},
+{
+ "name": "西區均",
+"Number": 2 
+},
+{
+ "name": "西區康",
+"Number": 11 
+},
+{
+ "name": "西區樂",
+"Number": 10 
+},
+{
+ "name": "西區林",
+"Number": 106 
+},
+{
+ "name": "西區柳",
+"Number": 71 
+},
+{
+ "name": "西區綠",
+"Number": 5 
+},
+{
+ "name": "西區梅",
+"Number": 7 
+},
+{
+ "name": "西區美",
+"Number": 189 
+},
+{
+ "name": "西區民",
+"Number": 339 
+},
+{
+ "name": "西區明",
+"Number": 7 
+},
+{
+ "name": "西區模",
+"Number": 16 
+},
+{
+ "name": "西區南",
+"Number": 62 
+},
+{
+ "name": "西區平",
+"Number": 1 
+},
+{
+ "name": "西區仁",
+"Number": 2 
+},
+{
+ "name": "西區日",
+"Number": 16 
+},
+{
+ "name": "西區三",
+"Number": 173 
+},
+{
+ "name": "西區昇",
+"Number": 12 
+},
+{
+ "name": "西區市",
+"Number": 4 
+},
+{
+ "name": "西區雙",
+"Number": 3 
+},
+{
+ "name": "西區四",
+"Number": 9 
+},
+{
+ "name": "西區台",
+"Number": 286 
+},
+{
+ "name": "西區太",
+"Number": 11 
+},
+{
+ "name": "西區文",
+"Number": 2 
+},
+{
+ "name": "西區五",
+"Number": 379 
+},
+{
+ "name": "西區西",
+"Number": 56 
+},
+{
+ "name": "西區向",
+"Number": 216 
+},
+{
+ "name": "西區英",
+"Number": 103 
+},
+{
+ "name": "西區永",
+"Number": 4 
+},
+{
+ "name": "西區原",
+"Number": 1 
+},
+{
+ "name": "西區長",
+"Number": 8 
+},
+{
+ "name": "西區正",
+"Number": 1 
+},
+{
+ "name": "西區中",
+"Number": 141 
+},
+{
+ "name": "西區忠",
+"Number": 238 
+},
+{
+ "name": "西區自",
+"Number": 97 
+},
+{
+ "name": "西屯區",
+"Number": 6079 
+},
+{
+ "name": "新社區",
+"Number": 263 
+},
+{
+ "name": "中區成",
+"Number": 39 
+},
+{
+ "name": "中區大",
+"Number": 26 
+},
+{
+ "name": "中區篤",
+"Number": 1 
+},
+{
+ "name": "中區福",
+"Number": 3 
+},
+{
+ "name": "中區公",
+"Number": 67 
+},
+{
+ "name": "中區光",
+"Number": 24 
+},
+{
+ "name": "中區繼",
+"Number": 5 
+},
+{
+ "name": "中區建",
+"Number": 58 
+},
+{
+ "name": "中區柳",
+"Number": 17 
+},
+{
+ "name": "中區綠",
+"Number": 19 
+},
+{
+ "name": "中區民",
+"Number": 35 
+},
+{
+ "name": "中區平",
+"Number": 9 
+},
+{
+ "name": "中區仁",
+"Number": 3 
+},
+{
+ "name": "中區三",
+"Number": 88 
+},
+{
+ "name": "中區市",
+"Number": 13 
+},
+{
+ "name": "中區雙",
+"Number": 13 
+},
+{
+ "name": "中區興",
+"Number": 3 
+},
+{
+ "name": "中區中",
+"Number": 250 
+},
+{
+ "name": "中區自",
+"Number": 55 
+} 
+] 
+},
+{
+ "name": "桃園縣",
+"children": [
+ {
+ "name": "八德市",
+"Number": 2390 
+},
+{
+ "name": "大溪鎮",
+"Number": 1161 
+},
+{
+ "name": "大園鄉",
+"Number": 1120 
+},
+{
+ "name": "復興鄉",
+"Number": 33 
+},
+{
+ "name": "觀音鄉",
+"Number": 551 
+},
+{
+ "name": "龜山鄉",
+"Number": 1926 
+},
+{
+ "name": "龍潭鄉",
+"Number": 1326 
+},
+{
+ "name": "蘆竹鄉",
+"Number": 1667 
+},
+{
+ "name": "平鎮市",
+"Number": 2109 
+},
+{
+ "name": "桃園市",
+"Number": 4487 
+},
+{
+ "name": "新屋鄉",
+"Number": 480 
+},
+{
+ "name": "楊梅市",
+"Number": 1028 
+},
+{
+ "name": "楊梅鎮",
+"Number": 408 
+},
+{
+ "name": "中壢市",
+"Number": 5340 
+} 
+] 
+},
+{
+ "name": "新北市",
+"children": [
+ {
+ "name": "八里區",
+"Number": 281 
+},
+{
+ "name": "板橋區",
+"Number": 2237 
+},
+{
+ "name": "淡水區",
+"Number": 811 
+},
+{
+ "name": "貢寮區",
+"Number": 48 
+},
+{
+ "name": "金山區",
+"Number": 64 
+},
+{
+ "name": "林口區",
+"Number": 466 
+},
+{
+ "name": "蘆洲區",
+"Number": 882 
+},
+{
+ "name": "平溪區",
+"Number": 12 
+},
+{
+ "name": "坪林區",
+"Number": 76 
+},
+{
+ "name": "瑞芳區",
+"Number": 171 
+},
+{
+ "name": "三峽區",
+"Number": 600 
+},
+{
+ "name": "三芝區",
+"Number": 96 
+},
+{
+ "name": "三重區",
+"Number": 2086 
+},
+{
+ "name": "深坑區",
+"Number": 58 
+},
+{
+ "name": "石碇區",
+"Number": 42 
+},
+{
+ "name": "石門區",
+"Number": 46 
+},
+{
+ "name": "樹林區",
+"Number": 877 
+},
+{
+ "name": "雙溪區",
+"Number": 18 
+},
+{
+ "name": "泰山區",
+"Number": 402 
+},
+{
+ "name": "土城區",
+"Number": 1936 
+},
+{
+ "name": "萬里區",
+"Number": 62 
+},
+{
+ "name": "烏來區",
+"Number": 32 
+},
+{
+ "name": "五股區",
+"Number": 804 
+},
+{
+ "name": "汐止區",
+"Number": 970 
+},
+{
+ "name": "新店區",
+"Number": 1772 
+},
+{
+ "name": "新莊區",
+"Number": 1348 
+},
+{
+ "name": "鶯歌區",
+"Number": 491 
+},
+{
+ "name": "永和區",
+"Number": 1987 
+},
+{
+ "name": "中和區",
+"Number": 3017 
+} 
+] 
+},
+{
+ "name": "新竹市",
+"children": [
+ {
+ "name": "北區",
+"Number": 1 
+},
+{
+ "name": "北區1",
+"Number": 1 
+},
+{
+ "name": "北區愛",
+"Number": 6 
+},
+{
+ "name": "北區北",
+"Number": 98 
+},
+{
+ "name": "北區成",
+"Number": 44 
+},
+{
+ "name": "北區城",
+"Number": 5 
+},
+{
+ "name": "北區大",
+"Number": 5 
+},
+{
+ "name": "北區德",
+"Number": 5 
+},
+{
+ "name": "北區東",
+"Number": 138 
+},
+{
+ "name": "北區府",
+"Number": 2 
+},
+{
+ "name": "北區富",
+"Number": 2 
+},
+{
+ "name": "北區復",
+"Number": 1 
+},
+{
+ "name": "北區港",
+"Number": 1 
+},
+{
+ "name": "北區公",
+"Number": 8 
+},
+{
+ "name": "北區光",
+"Number": 35 
+},
+{
+ "name": "北區廣",
+"Number": 1 
+},
+{
+ "name": "北區國",
+"Number": 4 
+},
+{
+ "name": "北區海",
+"Number": 6 
+},
+{
+ "name": "北區和",
+"Number": 11 
+},
+{
+ "name": "北區吉",
+"Number": 3 
+},
+{
+ "name": "北區嘉",
+"Number": 1 
+},
+{
+ "name": "北區金",
+"Number": 4 
+},
+{
+ "name": "北區經",
+"Number": 107 
+},
+{
+ "name": "北區景",
+"Number": 2 
+},
+{
+ "name": "北區警",
+"Number": 7 
+},
+{
+ "name": "北區境",
+"Number": 6 
+},
+{
+ "name": "北區客",
+"Number": 3 
+},
+{
+ "name": "北區林",
+"Number": 18 
+},
+{
+ "name": "北區民",
+"Number": 24 
+},
+{
+ "name": "北區南",
+"Number": 3 
+},
+{
+ "name": "北區湳",
+"Number": 64 
+},
+{
+ "name": "北區農",
+"Number": 2 
+},
+{
+ "name": "北區磐",
+"Number": 1 
+},
+{
+ "name": "北區仁",
+"Number": 10 
+},
+{
+ "name": "北區榮",
+"Number": 2 
+},
+{
+ "name": "北區尚",
+"Number": 1 
+},
+{
+ "name": "北區少",
+"Number": 3 
+},
+{
+ "name": "北區勝",
+"Number": 1 
+},
+{
+ "name": "北區聖",
+"Number": 3 
+},
+{
+ "name": "北區世",
+"Number": 8 
+},
+{
+ "name": "北區水",
+"Number": 16 
+},
+{
+ "name": "北區四",
+"Number": 21 
+},
+{
+ "name": "北區崧",
+"Number": 14 
+},
+{
+ "name": "北區台",
+"Number": 9 
+},
+{
+ "name": "北區天",
+"Number": 23 
+},
+{
+ "name": "北區田",
+"Number": 3 
+},
+{
+ "name": "北區鐵",
+"Number": 24 
+},
+{
+ "name": "北區文",
+"Number": 2 
+},
+{
+ "name": "北區武",
+"Number": 34 
+},
+{
+ "name": "北區溪",
+"Number": 6 
+},
+{
+ "name": "北區西",
+"Number": 135 
+},
+{
+ "name": "北區新",
+"Number": 7 
+},
+{
+ "name": "北區延",
+"Number": 80 
+},
+{
+ "name": "北區育",
+"Number": 1 
+},
+{
+ "name": "北區長",
+"Number": 1 
+},
+{
+ "name": "北區振",
+"Number": 1 
+},
+{
+ "name": "北區中",
+"Number": 300 
+},
+{
+ "name": "北區竹",
+"Number": 32 
+},
+{
+ "name": "東區",
+"Number": 2 
+},
+{
+ "name": "東區愛",
+"Number": 1 
+},
+{
+ "name": "東區安",
+"Number": 1 
+},
+{
+ "name": "東區八",
+"Number": 4 
+},
+{
+ "name": "東區寶",
+"Number": 72 
+},
+{
+ "name": "東區北",
+"Number": 19 
+},
+{
+ "name": "東區博",
+"Number": 8 
+},
+{
+ "name": "東區埔",
+"Number": 28 
+},
+{
+ "name": "東區柴",
+"Number": 3 
+},
+{
+ "name": "東區成",
+"Number": 1 
+},
+{
+ "name": "東區赤",
+"Number": 2 
+},
+{
+ "name": "東區創",
+"Number": 26 
+},
+{
+ "name": "東區慈",
+"Number": 41 
+},
+{
+ "name": "東區大",
+"Number": 16 
+},
+{
+ "name": "東區德",
+"Number": 1 
+},
+{
+ "name": "東區頂",
+"Number": 2 
+},
+{
+ "name": "東區東",
+"Number": 198 
+},
+{
+ "name": "東區篤",
+"Number": 9 
+},
+{
+ "name": "東區復",
+"Number": 2 
+},
+{
+ "name": "東區高",
+"Number": 41 
+},
+{
+ "name": "東區工",
+"Number": 47 
+},
+{
+ "name": "東區公",
+"Number": 121 
+},
+{
+ "name": "東區關",
+"Number": 37 
+},
+{
+ "name": "東區光",
+"Number": 430 
+},
+{
+ "name": "東區國",
+"Number": 2 
+},
+{
+ "name": "東區花",
+"Number": 4 
+},
+{
+ "name": "東區火",
+"Number": 1 
+},
+{
+ "name": "東區建",
+"Number": 86 
+},
+{
+ "name": "東區介",
+"Number": 29 
+},
+{
+ "name": "東區金",
+"Number": 48 
+},
+{
+ "name": "東區錦",
+"Number": 5 
+},
+{
+ "name": "東區經",
+"Number": 100 
+},
+{
+ "name": "東區科",
+"Number": 13 
+},
+{
+ "name": "東區客",
+"Number": 3 
+},
+{
+ "name": "東區力",
+"Number": 114 
+},
+{
+ "name": "東區立",
+"Number": 2 
+},
+{
+ "name": "東區林",
+"Number": 76 
+},
+{
+ "name": "東區龍",
+"Number": 1 
+},
+{
+ "name": "東區綠",
+"Number": 1 
+},
+{
+ "name": "東區民",
+"Number": 144 
+},
+{
+ "name": "東區明",
+"Number": 92 
+},
+{
+ "name": "東區南",
+"Number": 125 
+},
+{
+ "name": "東區培",
+"Number": 7 
+},
+{
+ "name": "東區千",
+"Number": 10 
+},
+{
+ "name": "東區青",
+"Number": 3 
+},
+{
+ "name": "東區區",
+"Number": 1 
+},
+{
+ "name": "東區仁",
+"Number": 8 
+},
+{
+ "name": "東區三",
+"Number": 13 
+},
+{
+ "name": "東區勝",
+"Number": 3 
+},
+{
+ "name": "東區食",
+"Number": 97 
+},
+{
+ "name": "東區世",
+"Number": 4 
+},
+{
+ "name": "東區水",
+"Number": 18 
+},
+{
+ "name": "東區四",
+"Number": 1 
+},
+{
+ "name": "東區台",
+"Number": 5 
+},
+{
+ "name": "東區臺",
+"Number": 1 
+},
+{
+ "name": "東區太",
+"Number": 2 
+},
+{
+ "name": "東區體",
+"Number": 2 
+},
+{
+ "name": "東區田",
+"Number": 8 
+},
+{
+ "name": "東區鐵",
+"Number": 4 
+},
+{
+ "name": "東區頭",
+"Number": 4 
+},
+{
+ "name": "東區文",
+"Number": 17 
+},
+{
+ "name": "東區汙",
+"Number": 1 
+},
+{
+ "name": "東區武",
+"Number": 7 
+},
+{
+ "name": "東區溪",
+"Number": 4 
+},
+{
+ "name": "東區西",
+"Number": 70 
+},
+{
+ "name": "東區新",
+"Number": 70 
+},
+{
+ "name": "東區信",
+"Number": 3 
+},
+{
+ "name": "東區興",
+"Number": 14 
+},
+{
+ "name": "東區學",
+"Number": 30 
+},
+{
+ "name": "東區研",
+"Number": 38 
+},
+{
+ "name": "東區仰",
+"Number": 1 
+},
+{
+ "name": "東區迎",
+"Number": 1 
+},
+{
+ "name": "東區原",
+"Number": 1 
+},
+{
+ "name": "東區園",
+"Number": 293 
+},
+{
+ "name": "東區展",
+"Number": 14 
+},
+{
+ "name": "東區長",
+"Number": 2 
+},
+{
+ "name": "東區振",
+"Number": 11 
+},
+{
+ "name": "東區中",
+"Number": 377 
+},
+{
+ "name": "東區忠",
+"Number": 41 
+},
+{
+ "name": "東區竹",
+"Number": 13 
+},
+{
+ "name": "東區自",
+"Number": 34 
+},
+{
+ "name": "香山區",
+"Number": 827 
+} 
+] 
+},
+{
+ "name": "新竹縣",
+"children": [
+ {
+ "name": "寶山鄉",
+"Number": 168 
+},
+{
+ "name": "北埔鄉",
+"Number": 44 
+},
+{
+ "name": "峨眉鄉",
+"Number": 34 
+},
+{
+ "name": "關西鎮",
+"Number": 199 
+},
+{
+ "name": "橫山鄉",
+"Number": 92 
+},
+{
+ "name": "湖口鄉",
+"Number": 1173 
+},
+{
+ "name": "尖石鄉",
+"Number": 23 
+},
+{
+ "name": "芎林鄉",
+"Number": 234 
+},
+{
+ "name": "五峰鄉",
+"Number": 8 
+},
+{
+ "name": "新埔鎮",
+"Number": 338 
+},
+{
+ "name": "新豐鄉",
+"Number": 431 
+},
+{
+ "name": "竹北市",
+"Number": 1829 
+},
+{
+ "name": "竹東鎮",
+"Number": 948 
+} 
+] 
+},
+{
+ "name": "宜蘭縣",
+"children": [
+ {
+ "name": "大同鄉",
+"Number": 36 
+},
+{
+ "name": "冬山鄉",
+"Number": 639 
+},
+{
+ "name": "礁溪鄉",
+"Number": 516 
+},
+{
+ "name": "羅東鎮",
+"Number": 1003 
+},
+{
+ "name": "南澳鄉",
+"Number": 29 
+},
+{
+ "name": "三星鄉",
+"Number": 272 
+},
+{
+ "name": "蘇澳鎮",
+"Number": 312 
+},
+{
+ "name": "頭城鎮",
+"Number": 293 
+},
+{
+ "name": "五結鄉",
+"Number": 492 
+},
+{
+ "name": "宜蘭市",
+"Number": 1408 
+},
+{
+ "name": "員山鄉",
+"Number": 282 
+},
+{
+ "name": "壯圍鄉",
+"Number": 227 
+} 
+] 
+},
+{
+ "name": "雲林縣",
+"children": [
+ {
+ "name": "褒忠鄉",
+"Number": 58 
+},
+{
+ "name": "北港鎮",
+"Number": 430 
+},
+{
+ "name": "莿桐鄉",
+"Number": 127 
+},
+{
+ "name": "大埤鄉",
+"Number": 150 
+},
+{
+ "name": "東勢鄉",
+"Number": 129 
+},
+{
+ "name": "斗六市",
+"Number": 1545 
+},
+{
+ "name": "斗南鎮",
+"Number": 707 
+},
+{
+ "name": "二崙鄉",
+"Number": 130 
+},
+{
+ "name": "古坑鄉",
+"Number": 239 
+},
+{
+ "name": "虎尾鎮",
+"Number": 1047 
+},
+{
+ "name": "口湖鄉",
+"Number": 106 
+},
+{
+ "name": "林內鄉",
+"Number": 122 
+},
+{
+ "name": "崙背鄉",
+"Number": 167 
+},
+{
+ "name": "麥寮鄉",
+"Number": 430 
+},
+{
+ "name": "水林鄉",
+"Number": 123 
+},
+{
+ "name": "四湖鄉",
+"Number": 127 
+},
+{
+ "name": "台西鄉",
+"Number": 111 
+},
+{
+ "name": "土庫鎮",
+"Number": 179 
+},
+{
+ "name": "西螺鎮",
+"Number": 367 
+},
+{
+ "name": "元長鄉",
+"Number": 117 
+} 
+] 
+},
+{
+ "name": "彰化縣",
+"children": [
+ {
+ "name": "北斗鎮",
+"Number": 351 
+},
+{
+ "name": "埔埔鹽",
+"Number": 1 
+},
+{
+ "name": "埔心鄉",
+"Number": 296 
+},
+{
+ "name": "埔鹽鄉",
+"Number": 225 
+},
+{
+ "name": "大城鄉",
+"Number": 105 
+},
+{
+ "name": "大村鄉",
+"Number": 343 
+},
+{
+ "name": "二林鎮",
+"Number": 569 
+},
+{
+ "name": "二水鄉",
+"Number": 79 
+},
+{
+ "name": "芳苑鄉",
+"Number": 249 
+},
+{
+ "name": "芬園鄉",
+"Number": 157 
+},
+{
+ "name": "福興鄉",
+"Number": 417 
+},
+{
+ "name": "和美鎮",
+"Number": 817 
+},
+{
+ "name": "花壇鄉",
+"Number": 531 
+},
+{
+ "name": "鹿港鎮",
+"Number": 879 
+},
+{
+ "name": "路鹿港",
+"Number": 1 
+},
+{
+ "name": "埤頭鄉",
+"Number": 203 
+},
+{
+ "name": "社頭鄉",
+"Number": 329 
+},
+{
+ "name": "伸港鄉",
+"Number": 207 
+},
+{
+ "name": "田尾鄉",
+"Number": 209 
+},
+{
+ "name": "田中鎮",
+"Number": 363 
+},
+{
+ "name": "溪湖鎮",
+"Number": 506 
+},
+{
+ "name": "溪州鄉",
+"Number": 189 
+},
+{
+ "name": "線西鄉",
+"Number": 122 
+},
+{
+ "name": "秀水鄉",
+"Number": 296 
+},
+{
+ "name": "秀鄉彰",
+"Number": 1 
+},
+{
+ "name": "永靖鄉",
+"Number": 205 
+},
+{
+ "name": "員林鎮",
+"Number": 1154 
+},
+{
+ "name": "彰化市",
+"Number": 3022 
+},
+{
+ "name": "彰化縣",
+"Number": 1 
+},
+{
+ "name": "彰市彰",
+"Number": 17 
+},
+{
+ "name": "彰秀水",
+"Number": 1 
+},
+{
+ "name": "彰彰化",
+"Number": 1 
+},
+{
+ "name": "竹塘鄉",
+"Number": 104 
+} 
+] 
+} 
+] 
+}
