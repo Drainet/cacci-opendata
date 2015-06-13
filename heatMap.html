@@ -3,8 +3,10 @@
 <html>
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+    <title>Traffic Accident Heat Map</title>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
     <script type="text/javascript" src="js/d3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
   </head>
   <body>
@@ -14,11 +16,12 @@
           <!-- Sidebar -->
     <div id="sidebar-wrapper">
     <ul id="sidebar_menu" class="sidebar-nav">
-         <li class="sidebar-brand"><a id="menu-toggle" href="#">Menu<span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
+         <li class="sidebar-brand"><a id="menu-toggle">Menu<span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
     </ul>
       <ul class="sidebar-nav" id="sidebar">     
-        <li><a>chart1<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
-        <li><a>chart2<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
+        <li><a href="./heatMap.html">熱圖<span class="sub_icon glyphicon glyphicon-globe"></span></a></li>
+        <li><a>地點<span class="sub_icon glyphicon glyphicon-map-marker"></span></a></li>
+        <li><a>圖表<span class="sub_icon glyphicon glyphicon-stats"></span></a></li>
       </ul>
     </div>
   </div>
@@ -61,9 +64,9 @@
         var heatmapData = [];
         var heatmap = new google.maps.visualization.HeatmapLayer({
           data: heatmapData,
-          radius: 9,              // 每個點的半徑 (單位 px)
-          opacity: 0.5            // 熱圖圖層透明度 (0 ~ 1)
-          // gradient: ['transparent', '#ff0', '#ff0', '#ff0'], 
+          radius: 40,              // 每個點的半徑 (單位 px)
+          opacity: 0.4            // 熱圖圖層透明度 (0 ~ 1)
+          // gradient: ['transparent', '#002292', '#0054FF', '#0084FF', '#00C4FF', '#F1F1F9'] 
         });
 
           // Draw each marker as a separate SVG element.
