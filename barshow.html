@@ -4,12 +4,26 @@
 <head>
 	<script src="http://d3js.org/d3.v3.min.js"></script>
 	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
+<div id="sidebar-wrapper">
+    <ul id="sidebar_menu" class="sidebar-nav">
+         <li class="sidebar-brand"><a id="menu-toggle">Menu<span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
+    </ul>
+      <ul class="sidebar-nav" id="sidebar">     
+        <li><a href="heatMap.html">熱圖<span class="sub_icon glyphicon glyphicon-globe"></span></a></li>
+        <li><a>地點<span class="sub_icon glyphicon glyphicon-map-marker"></span></a></li>
+        <li><a href="barshow.html">圖表<span class="sub_icon glyphicon glyphicon-stats"></span></a></li>
+      </ul>
+    </div>
+  </div>
 <style>
 
 body {
   font: 15px sans-serif;
   background-color: #000;
+
 }
 
 .axis path,
@@ -63,8 +77,8 @@ body {
 <body>
 
 <script>
-var margin = {top: 150, right: 100, bottom: 70, left: 100},
-    width = 1200 - margin.left - margin.right,
+var margin = {top: 150, right: 80, bottom: 90, left: 140},
+    width = 1100 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 var formatPercent = d3.format(".0f");
@@ -88,9 +102,9 @@ var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
   .html(function(d) {
-    return "<div style='color:red; font-size:1em; text-align:center;'><span style='color:white'>Death:</span> " + d.death + "</div>"
-        +"\t"+ "<div style='text-align:center';>Events:</strong> <span style='color:red'>" + d.events + "</span></div>"
-        +"\t"+ "<div style='text-align:center';>Injured:</strong> <span style='color:red'>" + d.injured + "</span></div>"
+    return "<div style='color:red; font-size:1em; text-align:center;'><span style='color:white'>Death: </span> " + d.death + "</div>"
+        +  "<div style='text-align:center';><strong>Events: </strong><span style='color:red'> " + d.events + " </span>"
+        +  "<strong>Injured: </strong><span style='color:red'> "+ d.injured +"</span></div>"
     ;
   })
 
@@ -98,6 +112,7 @@ var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .style("background-color","#d8f6ce")
+    .attr("transform","translate(50,10)")
   .append("g")
     .attr("transform", 
           "translate(" + margin.left + "," + margin.top + ")");
@@ -145,8 +160,8 @@ d3.csv("data/CountAccident.csv", type, function(error, data) {
 
   svg.append("g")
     .append("text")
-    .attr("x", - margin.left + 20)
-    .attr("y", - margin.top + 30)
+    .attr("x", - margin.left + 100)
+    .attr("y", - margin.top + 50)
     .text("Taipei trafic accident ( recent 3 years )")
     .attr("font-size",25)
     .attr("fill","orangered");
@@ -164,4 +179,6 @@ function type(d) {
 
 </script>
 
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </body>

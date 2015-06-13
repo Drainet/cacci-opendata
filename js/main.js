@@ -1,4 +1,4 @@
-$("#wrapper").click(function(e) {
-    e.preventDefault();
-    $("#wrapper").toggleClass("active");
-});
+// $("#wrapper").click(function(e) {
+//     e.preventDefault();
+//     $("#wrapper").toggleClass("active");
+// });
