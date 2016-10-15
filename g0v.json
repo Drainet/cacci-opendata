@@ -1,0 +1,27 @@
+{
+  "status": "beta",
+  "name": "motor accident hotspots",
+  "name_zh": "車禍熱點",
+  "description": "opendata project showing hotspots for motor accidents",
+  "description_zh": "關於車禍熱點的開放資料計畫",
+  "document": " ",
+  "homepage": " ",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Drainet/cacci-opendata"
+  },
+  "licenses": [
+    {
+      "type": " "
+    }
+  ],
+  "keywords": [
+    "car accidenct",
+    "map",
+    "open data"
+  ],
+  "audience": [
+    "public"
+  ],
+"thumbnail": " "
+}
